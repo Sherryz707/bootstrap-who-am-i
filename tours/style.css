@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Aleo:ital,wght@0,400;1,700&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -5,11 +7,14 @@
 }
 .bg-body-tertiary{
     background-color: #edf2ff!important;
+    padding: 2rem;
+    padding-bottom: 0;
 }
 body{
     font-size: 62.5%;
     background-color: #edf2ff; 
-    /* main: green 2 */
+    font-family: 'Aleo', serif;
+    line-height:1;
 }
 
  .hero.container-fluid{
@@ -21,6 +26,7 @@ body{
     padding: 0;
     position: relative;
 }
+
 .hero-overlay{
     position: absolute;
         top: 0;
@@ -35,10 +41,12 @@ body{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: white;
+    color:#172326;
     text-align: center;
-    font-size: 4rem;
+    background: linear-gradient(0deg, rgba(128, 163, 153, 0.2879202706473214) 6%, rgba(237, 242, 255, 0.5316177496389181) 58%);
+    padding: 4rem;
 }
+
 /* 
 .hero-overlay {
     position: absolute;
@@ -149,4 +157,125 @@ background-color:#e7f5ff;;
 
 .places-container.container{
     width: 100%;
+}
+.row>*{
+    max-width: 50%;
+}
+
+/* TYPOGRAPHY */
+
+/* HERO */
+.hero-overlay-text h1 {
+    font-size: 3.6rem;
+    font-weight: 570;
+    letter-spacing: -0.1rem;
+    line-height: 0.9;
+    color: #021912;
+}
+.gems{
+    color: #d6336c;
+    font-style: italic;
+}
+/* CAROUSEL CARD */
+.card-title{
+    font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: 0.1rem;
+}
+.carousel-card .btn-primary{
+    font-size: 1.2rem;
+        color: #edf2ff;
+        background-color: #f06595;
+        font-weight: 400;
+        font-style: italic;
+}
+
+/* PLACES */
+/* BANNER */
+.text-white{
+    font-size: 3.6rem;
+}
+.place h2{
+    margin-bottom: 3.2rem;
+}
+.even-plc{
+    text-align: right;
+}
+.place h2 {
+    margin-bottom: 3.2rem;
+    font-size: 1.8rem;
+    letter-spacing: -2px;
+    color: #d6336c;
+    font-weight: 600;
+}
+.navbar-brand,.bg-body-tertiary,.nav-link{
+    font-size:1.6rem;
+    font-weight: 400;
+    color: #033324;
+}
+.navbar-brand{
+    color:#d6336c;
+    font-weight: 600;
+}
+.nav-link:hover{
+    color: #d6336c;
+    text-decoration: underline #d6336c;;
+}
+
+@media (max-width:1000px){
+    .d-flex{
+        flex-direction: column;
+    }
+    .navbar-nav{
+        flex-direction: row;
+        gap: 1rem;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media (max-width: 770px){
+    .hero-overlay-text h1{
+        font-size: 2.6rem;
+    }
+    .hero-overlay-text{
+        width: 70%;
+        height: 40%;
+        padding: 2rem;
+    }
+    .text-white{
+        font-size: 2rem;
+    }
+    .place h2{
+        font-size: 1.4rem;
+        margin-bottom:1rem;
+    }
+}
+@media (max-width: 670px){
+    .hero-overlay-text {
+        padding: 1rem;
+    }
+    .text-white {
+        font-size: 1.6rem;
+    }
+
+}
+@media (max-width:520px){
+    .hero-overlay-text {
+        padding: 1rem;
+        top: 40%;
+        height: 55%;
+    }
+    .text-white {
+        font-size: 1.4rem;
+    }
+    .place h2 {
+        font-size: 1rem;
+        letter-spacing: 0rem;
+    }
+        .navbar-brand,
+        .bg-body-tertiary,
+        .nav-link {
+            font-size: 1rem;
+        }
+
 }
