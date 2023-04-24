@@ -76,10 +76,10 @@ body {
 /* HERO */
 /**************************/
 
-.hero{
+.hero {
     padding-top: 2rem;
 }
-.hero h1{
+.hero h1 {
     font-size: 6rem;
 }
 .mine.container {
@@ -118,55 +118,65 @@ body {
     margin-top: 2rem;
     align-self: flex-start;
 }
-.row>* {
+.full-img {
+    background-image: url('https://images.unsplash.com/photo-1543771034-a8dc04b680d2?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.row.featurette > * {
     width: 50%;
 }
-.accordion-button{
+.accordion-button {
     flex-direction: column;
     align-items: flex-start;
 }
 /* adding color */
-body{
+body {
     background-color: #9ebbdc;
 }
-.navig.container{
+.navig.container {
     padding: 0;
 }
-.main-class.container,.navig.container{
+.main-page {
+    padding: 0 2rem;
+}
+.main-class.container,
+.navig.container {
     background-color: #fdfdfd;
 }
-.mine.container{
+.mine.container {
     align-items: flex-start;
     margin-top: 2.6rem;
 }
 /* Typography */
-.hero h1{
+.hero h1 {
     color: #000000;
     font-weight: 500;
 }
-p{
+p {
     font-family: 'Clash Grotesk', sans-serif;
 }
-.container.outer p{
+.container.outer p {
     font-size: 1.6rem;
     max-width: 70%;
 }
-.fav-city{
+.fav-city {
     font-size: 4.4rem;
     padding: 1rem;
     font-weight: 600;
 }
-.featurette-heading{
+.featurette-heading {
     font-size: 3.6rem;
     font-weight: 500;
 }
-.lead{
+.lead {
     font-size: 2rem;
     line-height: 1.5;
     margin-top: 2rem;
     font-weight: 400;
 }
-.accordion-button{
+.accordion-button {
     color: #000000;
     font-size: 2rem;
     line-height: 1.5;
@@ -176,9 +186,109 @@ p{
 .accordion-flush .accordion-item .accordion-button {
     font-weight: 500;
 }
-.accordion-body{
-    font-family: 'Clash Grotesk',sans-serif;
+.accordion-body {
+    font-family: 'Clash Grotesk', sans-serif;
     font-size: 1.8rem;
     line-height: 1.5;
     font-weight: 400;
+}
+.row.featurette {
+    margin-bottom: 4rem;
+}
+.featurette-divider {
+    margin: 4rem 0;
+}
+
+/* navbar */
+.navbar-brand,
+a.nav-link {
+    color: #000000;
+    font-size: 2rem;
+    font-weight: 500;
+    /* padding: 1rem; */
+}
+button
+/* main page */
+
+/* nav bar-padding */
+.navbar > .container,
+.navbar > .container-fluid,
+.navbar > .container-lg,
+.navbar > .container-md,
+.navbar > .container-sm,
+.navbar > .container-xl,
+.navbar > .container-xxl {
+    padding: 0 2.4rem;
+}
+/* places text and heaidng */
+@media (max-width: 992px) {
+    .featurette-heading {
+        font-size: 2.6rem;
+    }
+    .lead {
+        font-size: 1.8rem;
+    }
+    .navbar-brand,
+    a.nav-link {
+        font-size: 1.6rem;
+    }
+}
+@media (max-width: 768px) {
+    .featurette-heading {
+        font-size: 2.4rem;
+    }
+    .lead {
+        font-size: 1.8rem;
+        margin-top: 1rem;
+        line-height: 2.4rem;
+    }
+    .container.outer p {
+        font-size: 1.2rem;
+    }
+}
+@media (max-width: 540px) {
+    .featurette-heading {
+        font-size: 1.8rem;
+    }
+    .lead {
+        font-size: 1.2rem;
+        margin-top: 0.6rem;
+        line-height: 1.9rem;
+    }
+    .hero h1 {
+        font-size: 4rem;
+        padding-left: 1.5rem;
+    }
+    .fav-city {
+        font-size: 3rem;
+    }
+    .navbar-brand,
+    a.nav-link {
+        font-size: 1.4rem;
+    }
+}
+@media (max-width: 494px) {
+    .hero h1 {
+        font-size: 3rem;
+        padding-left: 1.5rem;
+    }
+}
+@media (max-width: 24em) {
+    .featurette-heading {
+        font-size: 1.3rem;
+    }
+    .lead {
+        font-size: 1.2rem;
+        margin-top: 0.6rem;
+        line-height: 1rem;
+    }
+    .container.outer p {
+        font-size: 1rem;
+    }
+    .cont-1 img {
+        width: 62%;
+    }
+}
+main.main-class.container {
+    padding: 2.4rem;
 }

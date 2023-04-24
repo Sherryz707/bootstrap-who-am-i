@@ -1,0 +1,72 @@
+/* CONATINER WIDTH ADJUSTMENT ON BIGGER SCREENS */
+@media (min-width: 1500px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1400px;
+    }
+}
+@media (min-width: 1615px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1500px;
+    }
+}
+@media (min-width: 1700px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1650px;
+    }
+}
+@media (min-width: 2000px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 1800px;
+    }
+}
+@media (min-width: 2500px) {
+    .container,
+    .container-lg,
+    .container-md,
+    .container-sm,
+    .container-xl,
+    .container-xxl {
+        max-width: 2300px;
+    }
+}
+
+/* HERO SECTION */
+@media (max-width: 770px) {
+    .mine.container {
+        height: 30rem !important;
+    }
+    .accordion-flush .accordion-item .accordion-button {
+    font-weight: 500;
+    font-size: 1.4rem;
+    padding: 0.1rem;
+    }
+    /* .container.outer p {
+        font-size: 0.6rem;
+    } */
+}
+
+@media (max-width: 419px) {
+    .mine.container {
+        height: 19rem !important;
+    }
+}
