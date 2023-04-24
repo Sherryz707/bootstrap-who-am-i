@@ -69,7 +69,7 @@ body {
     font-size: 62.5%;
     line-height: 1;
     font-weight: 400;
-    color: #555;
+    color: #000000;
 }
 
 /**************************/
@@ -90,7 +90,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 2rem;
+    /* padding: 2rem; */
 }
 .cont-1 {
     display: flex;
@@ -135,5 +135,50 @@ body{
 .main-class.container,.navig.container{
     background-color: #fdfdfd;
 }
-
+.mine.container{
+    align-items: flex-start;
+    margin-top: 2.6rem;
+}
 /* Typography */
+.hero h1{
+    color: #000000;
+    font-weight: 500;
+}
+p{
+    font-family: 'Clash Grotesk', sans-serif;
+}
+.container.outer p{
+    font-size: 1.6rem;
+    max-width: 70%;
+}
+.fav-city{
+    font-size: 4.4rem;
+    padding: 1rem;
+    font-weight: 600;
+}
+.featurette-heading{
+    font-size: 3.6rem;
+    font-weight: 500;
+}
+.lead{
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+    font-weight: 400;
+}
+.accordion-button{
+    color: #000000;
+    font-size: 2rem;
+    line-height: 1.5;
+    margin-top: 2rem;
+    font-weight: 400;
+}
+.accordion-flush .accordion-item .accordion-button {
+    font-weight: 500;
+}
+.accordion-body{
+    font-family: 'Clash Grotesk',sans-serif;
+    font-size: 1.8rem;
+    line-height: 1.5;
+    font-weight: 400;
+}
