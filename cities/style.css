@@ -247,6 +247,7 @@ footer {
     font-size: 1.6rem;
     color: #000000!important;
     font-weight: 500;
+    background-color: #fdfdfd;
 }
 footer li {
     list-style: none;
@@ -261,6 +262,8 @@ footer li {
 }
 .faq {
     margin-right: 3.5rem;
+    margin-top: 0.5rem;
+
 }
 .links .faq a {
     text-decoration: none !important;
@@ -271,6 +274,7 @@ footer li {
     flex-wrap: wrap;
     justify-content: center;
     padding: 1.8rem;
+    gap: 1.5rem;
 }
 .fa {
     padding: 10px;

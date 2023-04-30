@@ -11,6 +11,7 @@ body{
     font-weight: 400;
     min-height: 100%;
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     background-color: #555;
 }
@@ -45,6 +46,7 @@ form.formzz {
     flex-wrap: wrap;
     margin-bottom: 1rem;
     align-items: center;
+    justify-content: center;
 }
 .myself p{
     margin-top: 0.6rem;
@@ -142,7 +144,11 @@ footer li {
 }
 .faq {
     margin-right: 3.5rem;
+    margin-top: 0.5rem;
 }
+
+
+
 .links .faq a {
     text-decoration: none !important;
     color: #E9D5DA!important;
@@ -152,6 +158,7 @@ footer li {
     flex-wrap: wrap;
     justify-content: center;
     padding: 1.8rem;
+    gap: 1.5rem;
 }
 .fa {
     padding: 10px;
@@ -195,3 +202,7 @@ header a{
 header li{
     list-style: none;
 }
+
+@media (max-width:768px){.intro-para{
+    text-align: center;
+}}

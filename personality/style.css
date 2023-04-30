@@ -301,7 +301,11 @@ footer li{
 }
 .faq{
     margin-right: 3.5rem;
+    margin-top: 0.5rem;
 }
+
+
+
 .links .faq a{
     text-decoration: none!important;
     color: #0d0d0d!important;
@@ -311,6 +315,7 @@ footer li{
     flex-wrap: wrap;
     justify-content: center;
     padding: 1.8rem;
+    gap: 1.5rem;
 }
 .fa {
   padding: 20px;
