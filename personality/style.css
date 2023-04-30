@@ -41,15 +41,18 @@ header {
     gap: 0.5rem;
     flex-wrap: wrap;
 }
-ul {
+header ul {
     display: flex;
     gap: 1rem;
     list-style: none;
 }
 li {
     text-decoration: none;
+    margin: 0 0.4rem;
 }
-
+header a:hover{
+    color:#b01e68;
+}
 /* -------------------------- */
 /* CLASSES TO MAKE MODAL WORK */
 .hidden {
@@ -133,6 +136,7 @@ li {
     font-size: 1.3rem;
     font-family: 'DM Serif Display';
     font-weight: 400;
+    padding-left: 1.4rem;
 }
 .two {
     background-image: url(https://images.unsplash.com/photo-1621932802533-e7894a493640?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1172&q=80);
@@ -259,7 +263,86 @@ header {
     background-color: #dc3535;
 }
 /* a href */
-a {
+header a,main a {
     text-decoration: none;
     color: #12030a;
+}
+/* *************** */
+/* FOOTER */
+/* **************** */
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-top: 0.1rem solid #0d0d0d;
+    border-bottom: 0.1rem solid #0d0d0d;
+    background-color: #f7e9f0;
+}
+address{
+    line-height: 2.4rem;
+    font-size: 1.6rem;
+}
+footer li{
+    list-style: none;
+    margin-bottom: 2rem;
+    margin-top: 0.5rem;
+}
+.links{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    padding: 2rem;
+}
+.faq{
+    margin-right: 3.5rem;
+}
+.links .faq a{
+    text-decoration: none!important;
+    color: #0d0d0d!important;
+}
+.icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.8rem;
+}
+.fa {
+  padding: 20px;
+  font-size: 2rem!important;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 14px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-dribbble {
+  background: #ea4c89;
+  color: white;
+}
+.fa-github {
+  background: #555;
+  color: white;
 }
