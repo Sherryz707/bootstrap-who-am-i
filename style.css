@@ -29,6 +29,9 @@ header{
 .nav-link{
     font-size: 1.4rem;
 }
+.nav-link{
+    margin: 0;
+}
 .nav-link:focus,.nav-link:hover{
     color: #ff81cc!important;
     text-decoration: overline;
@@ -351,7 +354,7 @@ footer{
 }
 li{
     list-style: none;
-    margin-bottom: 2rem;
+    font-weight: 700;
 }
 .links{
     display: grid;
