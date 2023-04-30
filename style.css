@@ -1,3 +1,17 @@
+/* #colors
+for-sections:
+#ffcb46 --yellow-ish
+#ff81cc --pink-ish
+
+accents:
+#57ef97 --blue-ish
+
+#text
+#0d0d0d
+
+#whites
+#ffffff */
+
 * {
     box-sizing: border-box;
     padding: 0;
