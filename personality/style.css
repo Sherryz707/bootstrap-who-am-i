@@ -4,12 +4,19 @@
 }
 html{
     scroll-behavior: smooth;
+    height: 100%;
 }
 body {
     font-weight: 400;
     line-height: 1;
     font-family: 'DM Serif Display', serif;
     color: #12030a;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+footer{
+    margin-top: auto;
 }
 .brand,
 li {
