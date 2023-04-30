@@ -71,7 +71,11 @@ body {
     font-weight: 400;
     color: #000000;
 }
-
+/* header */
+ul.dropdown-menu.show {
+    font-size: 1.6rem;
+    padding: 1.4rem;
+}
 /**************************/
 /* HERO */
 /**************************/
