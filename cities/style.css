@@ -131,7 +131,7 @@ body {
     flex-direction: column;
     align-items: flex-start;
 }
-.featurette-accordion h1{
+.featurette-accordion h1 {
     margin: 2rem;
     text-align: left;
     font-weight: 500;
@@ -145,7 +145,7 @@ body {
     padding: 0;
     border-bottom: 0.1rem solid #000000;
 }
-hr{
+hr {
     background-color: #000000;
     opacity: 1;
 }
@@ -218,7 +218,9 @@ a.nav-link {
     font-weight: 500;
     /* padding: 1rem; */
 }
-button
+.navbar-toggler{
+    border: 0.1rem solid #000000;
+}
 /* main page */
 
 /* nav bar-padding */
@@ -231,6 +233,60 @@ button
 .navbar > .container-xxl {
     padding: 0 2.4rem;
 }
+/* *************** */
+/* FOOTER */
+/* **************** */
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 1.6rem;
+    color: #000000!important;
+    font-weight: 500;
+}
+footer li {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+.footer .links {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 2rem;
+    justify-items: center;
+    
+}
+.faq {
+    margin-right: 3.5rem;
+}
+.links .faq a {
+    text-decoration: none !important;
+    color: #000000!important;
+}
+.icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.8rem;
+}
+.fa {
+    padding: 10px;
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 14px;
+    border-radius: 50%;
+    background-color: #000000;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+address{
+    line-height: 2.4rem;
+}
+
 /* places text and heaidng */
 @media (max-width: 992px) {
     .featurette-heading {
