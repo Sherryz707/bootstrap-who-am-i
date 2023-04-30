@@ -1,9 +1,14 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="h-100">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>tour demo</title>
+    <!-- icons -->
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+        />
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -16,7 +21,7 @@
     <link rel="stylesheet" href="style.css">
   
     </head>
-  <body class="d-flex flex-column min-vh-100">
+  <body class="d-flex flex-column h-100">
     <!-- Bootstraop -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
   
@@ -27,16 +32,13 @@
                 <div id="navbarNav"></div>
             <ul class="navbar-nav">
                 <li class="nav-item">
-                <a class="nav-link" aria-current="page" href="#">Home</a>
+                <a class="nav-link" aria-current="page" href="./../landing/index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Tours</a>
+                <a class="nav-link" href="./../cities/index.html">Cities</a>
                 </li>
                 <li class="nav-item">
-                <a class="nav-link" href="#">Cities</a>
-                </li>
-                <li class="nav-item">
-                <a class="nav-link" href="#">Personalities</a>
+                <a class="nav-link" href="./../personality/index.html">Personalities</a>
                 </li>
                 <li class="nav-item">
                 <a class="nav-link" href="#">Contact Me</a>
@@ -46,7 +48,7 @@
         </div>
         </nav>
     </header>
-    <main class="flex-grow-1">
+    <main>
         <div class="hero container-fluid rounded-4">
            <img src="https://images.unsplash.com/photo-1497215728101-856f4ea42174?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80" class="img-fluid w-100 h-100" alt="...">
            <div class="hero-overlay"></div>
@@ -403,8 +405,44 @@
          </div>   
         </div>
     </main>
-    <footer class="bg-dark">
+    <footer class="footer container mt-auto py-3 bg-light">
+            <div class="icons">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-google"></a>
+                <a href="#" class="fa fa-linkedin"></a>
+                <a href="#" class="fa fa-dribbble"></a>
 
-    </footer>
+                <a href="#" class="fa fa-github"></a>
+            </div>
+            <div class="links">
+                <div class="faq">
+                    <ul>
+                        <li><a href="#">Pricing</a></li>
+                        <li><a href="#">Settings</a></li>
+                        <li><a href="#">Order</a></li>
+                        <li><a href="#">Help</a></li>
+                    </ul>
+                </div>
+
+                <div class="location">
+                    <address>
+                        You can contact author at
+                        <a href="#">
+                            www.someEmail.com</a
+                        >.<br />
+                        If you see any bugs, please
+                        <a href="#">
+                            contact webmaster</a
+                        >.<br />
+                        You may also want to visit us:<br />
+                        Random location<br />
+                        331 E Evelyn Ave<br />
+                        Mountain View, CA 94041<br />
+                        USA
+                    </address>
+                </div>
+            </div>
+        </footer>
   </body>
 </html>
