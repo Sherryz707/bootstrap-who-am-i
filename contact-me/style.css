@@ -108,6 +108,9 @@ header{
    color: #E9D5DA;
    font-size: 1.4rem;
 }
+header a{
+    color: #E9D5DA;
+}
 header a:hover{
     color: white;
     text-decoration: underline;
