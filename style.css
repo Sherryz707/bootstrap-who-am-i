@@ -352,9 +352,10 @@ footer{
     border-top: 0.1rem solid #0d0d0d;
     border-bottom: 0.1rem solid #0d0d0d;
 }
-li{
+footer li{
     list-style: none;
     font-weight: 700;
+    margin-bottom: 2rem;
 }
 .links{
     display: grid;
@@ -379,7 +380,7 @@ li{
   font-size: 30px;
   text-align: center;
   text-decoration: none;
-  margin: 5px 2px;
+  margin: 5px 14px;
   border-radius: 50%;
 }
 
