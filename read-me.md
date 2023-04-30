@@ -1,23 +1,26 @@
-#references
+#The following multi-page website has been developed as part of a Web-Technologies course assignment. It is merely a markup and only includes placeholder content and images.
+It consists of 5 pages which are as follows:
+-Landing Page
+-My Favourite Cities Page
+-My Favourite Tours Page
+-My Favourite Personality Page
 
---https://www.rubens.design/?ref=onepagelove -marquee
 
---https://www.alexbeigeweb.dev/?ref=onepagelove#is--portfoliosection --purple
 
---https://www.mydesignbuddy.co.uk/?ref=onepagelove --cutesy
 
---https://land-book.com/websites/36012-dodonut-sustainable-design-for-mindful-brands --doodoo
 
-#colors
-for-sections:
-#ffcb46 --yellow-ish
-#ff81cc --pink-ish
 
-accents:
-#57ef97 --blue-ish
 
-#text
-#0d0d0d
 
-#whites
-#ffffff
+
+
+#references-used-for-landing-page
+
+--https://www.rubens.design/?ref=onepagelove 
+
+--https://www.alexbeigeweb.dev/?ref=onepagelove#is--portfoliosection -
+
+--https://www.mydesignbuddy.co.uk/?ref=onepagelove 
+
+--https://land-book.com/websites/36012-dodonut-sustainable-design-for-mindful-brands 
+
